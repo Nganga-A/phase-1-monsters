@@ -4,11 +4,25 @@
     <meta charset="utf-8">
     <title>Monstr</title>
     <!-- <script src='js/index.js'></script> -->
-    <script src='js/demo.js'></script>
+    <script src='js/index.js'></script>
   </head>
   <body>
     <h1>Monstr Inc.</h1>
-    <div id='create-monster'></div>
+    <div id='create-monster'>
+      <div id="create-monster">
+        <h2>Create Monster</h2>
+        <form id="monster-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required>
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" required></textarea>
+          <button type="submit">Create Monster</button>
+        </form>
+      </div>
+      
+    </div>
     <div id='monster-container'></div>
     <button id="back"><=</button>
     <button id="forward">=></button>
